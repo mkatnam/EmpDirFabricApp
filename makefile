@@ -4,7 +4,7 @@ SHELL = /usr/bin/env bash
 # IMPORTANT: Run 'make conf-git-filters' before adding your user and password to this file. #
 #############################################################################################
 
-fabric_dir=
+fabric_dir=fabric
 fabric_proj=EmpDirNative
 
 java_dir=java

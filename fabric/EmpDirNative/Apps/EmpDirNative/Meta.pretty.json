@@ -2,13 +2,6 @@
     "subType": "customapp",
     "description": "This app is created from Studio App EmpDirNative.\r\n",
     "version": "1.0",
-    "intSvcs": [
-        {
-            "name": "AppFactoryTestService",
-            "version": "1.0",
-            "etag": "95599813-eeee-4698-b294-f940d391fdd6"
-        }
-    ],
     "objectSvcs": [
         {
             "name": "EmployeeServices",

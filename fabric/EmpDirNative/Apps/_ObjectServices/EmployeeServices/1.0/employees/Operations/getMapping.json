@@ -13,38 +13,32 @@
       "id" : "$select",
       "dataType" : "string",
       "encode" : true,
-      "accessType" : "readonly",
-      "isExtended" : false
+      "accessType" : "readonly"
     }, {
       "id" : "$filter",
       "dataType" : "string",
       "encode" : true,
-      "accessType" : "readonly",
-      "isExtended" : false
+      "accessType" : "readonly"
     }, {
       "id" : "$orderby",
       "dataType" : "string",
       "encode" : true,
-      "accessType" : "readonly",
-      "isExtended" : false
+      "accessType" : "readonly"
     }, {
       "id" : "$top",
       "dataType" : "string",
       "encode" : true,
-      "accessType" : "readonly",
-      "isExtended" : false
+      "accessType" : "readonly"
     }, {
       "id" : "$skip",
       "dataType" : "string",
       "encode" : true,
-      "accessType" : "readonly",
-      "isExtended" : false
+      "accessType" : "readonly"
     }, {
       "id" : "$expand",
       "dataType" : "string",
       "encode" : true,
-      "accessType" : "readonly",
-      "isExtended" : false
+      "accessType" : "readonly"
     } ],
     "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><exec-function name=\"kony.gen.obj.employees.toLOBFields\"/><exec-function name=\"kony.gen.obj.employees__metadata.toLOBFields\"/></map></mapper>",
     "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"response_in\" outputpath=\"response_out\"><map inputpath=\"employees\" outputpath=\"employees\"><exec-function name=\"kony.gen.obj.employees.fromLOBFields\"/></map></map></mapper>",
@@ -66,18 +60,6 @@
       "selected" : true
     },
     "requestXmlMappingOverride" : false,
-    "responseXmlMappingOverride" : false,
-    "mapperData" : [ {
-      "name" : "base mapper1",
-      "order" : 1,
-      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><exec-function name=\"kony.gen.obj.employees.toLOBFields\"/><exec-function name=\"kony.gen.obj.employees__metadata.toLOBFields\"/></map></mapper>",
-      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"response_in\" outputpath=\"response_out\"><map inputpath=\"employees\" outputpath=\"employees\"><exec-function name=\"kony.gen.obj.employees.fromLOBFields\"/></map></map></mapper>",
-      "requestXmlMappingOverride" : false,
-      "responseXmlMappingOverride" : false,
-      "disabled" : false,
-      "applyCommonMapping" : true,
-      "applyRequestCommonMapping" : true,
-      "applyResponseCommonMapping" : true
-    } ]
+    "responseXmlMappingOverride" : false
   }
 }

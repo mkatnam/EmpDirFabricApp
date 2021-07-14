@@ -1,9 +1,0 @@
-{
-    "serviceType": "integration",
-    "jars": [
-        {
-            "name": "EmpDirFabric-0.0.1-SNAPSHOT.jar",
-            "type": "servicejar"
-        }
-    ]
-}
